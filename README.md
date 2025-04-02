@@ -1,7 +1,9 @@
-# Modelo para diagnóstico de câncer de mama
+# Modelo para avaliação dos filmes do Netflix
 
 👩‍💻 Autor: Kelly Ferreira
+
 🛠️ Linguagem: Python
+
 📈 Desenvolvido durante a [Trilha Data Science - ADA Tech Santander Coders](https://ada.tech/certificado?code=91beda22-296b-ad92-1553-3580486bc487)
 
 Fonte do Dataset: [Kaggle](https://www.kaggle.com/datasets/heptapod/titanic)
