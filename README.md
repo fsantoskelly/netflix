@@ -10,7 +10,7 @@ Fonte do Dataset: [Kaggle](https://www.kaggle.com/datasets/heptapod/titanic)
 
 ## Objetivo do Modelo
 
-Utilizar os parâmetros de **características morfológicas** das células a fim de identificar padrões associados ao câncer de mama
+Utilizar um conjunto de dados sobre filmes disponíveis na Netflix para visualizar informações relevantes para ações futuras.
 
 ## 📚Bibliotecas utilizadas/ aplicabilidade
 
@@ -34,7 +34,7 @@ df.head()`
 
 `df.head()`
 
------adicionar tabela aqui------
+![image](https://github.com/user-attachments/assets/23299d02-0e8e-4f40-8c2d-08c6b369cee3)
 
 🔹Geração do **Gráfico 1** -  Ranking de Filmes
 
@@ -68,7 +68,8 @@ plt.ylabel('Número de filmes')` para adicionar títulos aos eixos.
     
 `plt.show()`: 
 
-----ADICIONAR O GRÁFICO AQUI---
+![image](https://github.com/user-attachments/assets/ce26a4b2-b4aa-47ff-8964-ecfb0518c410)
+
 
 🔹Geração do **Gráfico  2** - Filmes Produzidos por Ano
 
@@ -79,15 +80,16 @@ plt.xlabel('Ano do Filme')
 plt.ylabel('Número de filmes')
 plt.show()`
 
-----inserir gráfico aqui---
+![image](https://github.com/user-attachments/assets/cc641926-2444-4ccb-bcec-3a76208d4f11)
 
 🔹Geração do **Gráfico  3** - Filmes Produzidos por Ano (Gráfico de Dispersão)
 
  (`plt.scatter()`) criação de  um gráfico de dispersão com os mesmos dados do gráfico de linha anterior.
  
  📝 Diferente do gráfico de linha, que conecta os pontos, o gráfico de dispersão **apresenta cada ponto individualmente**.
+ 
+![image](https://github.com/user-attachments/assets/1147f93a-1611-442e-a435-a96c3b76d8b6)
 
-----inserir gráfico aqui---
 
 🔹Geração do **Gráfico  4** - Quantidade de filmes por diretor
 
@@ -97,7 +99,8 @@ plt.xlabel('Número de Filmes')
 plt.ylabel('Diretor')
 plt.show()`
 
-----inserir gráfico aqui---
+![image](https://github.com/user-attachments/assets/9a0025da-63fd-432f-8d9a-eb245e34354e)
+
 
 🔹Geração do **Gráfico  5** - Ranking de Notas por diretor
 
@@ -108,6 +111,9 @@ plt.xlabel('Média da Nota')
 plt.ylabel('Diretor')
 plt.show()`
 
+![image](https://github.com/user-attachments/assets/4ffc11a8-b472-4f27-b62b-d43080c0b739)
+
+
 🔹Geração do **Gráfico  6** - Notas ao Longo dos Anos
 
 `df.groupby('Year')['Score'].mean().plot(kind='line', marker='o')
@@ -116,6 +122,8 @@ plt.xlabel('Ano')
 plt.ylabel('Nota Média')
 plt.grid()
 plt.show()`
+
+![image](https://github.com/user-attachments/assets/a24d8652-9cd6-4918-9b78-0be54437d668)
 
 🔹Geração do **Gráfico  7** - 10 Filmes Mais bem Avaliados
 
@@ -134,6 +142,8 @@ plt.ylabel('Filme (Diretor)')
 plt.title('Top 10 Filmes Mais Bem Avaliados de Todos os Tempos')
 plt.gca().invert_yaxis()  # Inverter para mostrar o melhor no topo
 plt.show()`
+
+![image](https://github.com/user-attachments/assets/50ceb29a-b6f1-4119-942b-a109de3850d6)
 
 
 ##  📝Considerações Finais
